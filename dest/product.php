@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<title>Vivasensess</title>
+		<meta name="robots" content="noindex, nofollow">
+		<meta name="description" content="">
+		<meta property="og:image" content="img/images/test.jpg">
+		<link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+		<link rel="manifest" href="img/favicon/site.webmanifest">
+		<link rel="mask-icon" href="img/favicon/safari-pinned-tab.svg" color="#b146c4">
+		<meta name="msapplication-TileColor" content="#2b5797">
+		<meta name="theme-color" content="#ffffff">
+		<link rel="stylesheet" href="css/main.min.css">
+	</head>
+	<body>
+			<header class="product_cat main_header slide ">
+				<div class="main_header-nav-burger nav-mobile icon_use">
+					Menu
+					<svg class="icon-header icon_burger">
+						<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
+					</svg>
+				</div>
+				<div class="main_header-nav_wrapper" >
+					<div class="main_header-nav">
+						<div class="main_header-nav-left">
+							<div class="main_header-nav-left_item main_header-nav-logo icon_use">
+								<svg class="icon icon_logo">
+									<use xlink:href="./img/svg/sprite.svg#viva_main-logo"></use>
+								</svg>
+							</div>
+							
+
+						</div>
+						<div class="main_header-nav-right">
+							<div class="main_header-nav-active-btns">
+								<div class="main_header-nav-contact nav-toggle-list">
+									<div class="nav-toggle-list_name">+38 073 713 11 77</div>
+									<div class="nav-toggle-list_arr-down">
+										<svg class="icon-arr_down">
+											<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
+										</svg>
+									</div>
+								</div>
+								<div class="main_header-nav-shopping-cart icon_use">
+									<svg class="icon-header icon-shoppingcart">
+										<use xlink:href="./img/svg/sprite.svg#viva_main-basket"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="main_header-nav-langs nav-toggle-list">
+								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
+								<div class="nav-toggle-list_arr-down">
+									<svg class="icon-arr_down">
+										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
+									</svg>
+								</div>
+							</div>
+							<div class="main_header-nav-burger icon_use">
+								<svg class="icon-header icon_burger">
+									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</header>
+
+			<section class="section section_product-course">
+				<div class="product-course_outer container">
+					<ul class="products">
+						<li
+							class="product type-product status-publish has-post-thumbnail product_cat-cameras product_tag-composite-product product_tag-extension-demonstration pif-has-gallery first instock shipping-taxable product-type-composite">
+							<div class="product_inner">
+
+								<a href="http://vivassense.com/product-checkout.html"
+									class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="450"
+										height="600"
+										src="./img/images/pr-img1.png"
+										class="attachment-shop_catalog size-shop_catalog wp-post-image"
+										alt="Photo by Danny Santoro">
+									<h2 class="woocommerce-loop-product__title">Food Supplement Біопаста Vivassense №7 CardioProtect</h2>
+									<div class="product_buy-course">
+										<div class="product_buy-course-text">купить курс на неделю</div>
+									</div>
+									<span class="price"><span class="woocommerce-Price-amount amount">345<span class="woocommerce-Price-currencySymbol">грн</span></span></span>
+								</a>
+								
+								
+								<a rel="nofollow"
+									href="http://vivassense.com/product-checkout.html"
+									data-quantity="1" data-product_id="8135" data-product_sku=""
+									class="button product_type_composite">Купить</a>
+							</div>
+						</li>
+						<li
+							class="product type-product status-publish has-post-thumbnail product_cat-cameras product_tag-composite-product product_tag-extension-demonstration pif-has-gallery first instock shipping-taxable product-type-composite">
+							<div class="product_inner">
+
+								<a href="http://vivassense.com/product-checkout.html"
+									class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="450"
+										height="600"
+										src="./img/images/pr-img2.png"
+										class="attachment-shop_catalog size-shop_catalog wp-post-image"
+										alt="Photo by Danny Santoro">
+									<h2 class="woocommerce-loop-product__title">Food Supplement Біопаста Vivassense №7 CardioProtect</h2>
+									<div class="product_buy-course">
+										<div class="product_buy-course-text">Купить курс
+											на 1,5 месяца</div>
+									</div>
+									<span class="price"><span class="woocommerce-Price-amount amount">1 350<span class="woocommerce-Price-currencySymbol">грн</span></span></span>
+								</a>
+								
+								
+								<a rel="nofollow"
+									href="http://vivassense.com/product-checkout.html"
+									data-quantity="1" data-product_id="8135" data-product_sku=""
+									class="button product_type_composite">Купить</a>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</section>
+			
+			<!-- banner -->
+			<section class="section-checkout product_cat">
+				<div class="container section-checkout_inner">
+					<span class="checkout-sum">$ Стоимость</span>
+					<button class="btn btn-white">Оформить покупку</button>
+				</div>
+			</section>
+			
+			<!-- footer -->
+			<footer class="main-footer slide">
+				<div class="container main-footer_inner">
+					<nav class="main-footer_nav">
+						<ul class="main-footer_nav-wrapper">
+							<li class="main-footer_nav-item"><a href="http://vivassense.com/product-cat.html">Все продукты</a></li>
+							<li class="main-footer_nav-item"><a href="http://vivassense.com/product-cat.html">диагностические кабинеты</a></li>
+							<li class="main-footer_nav-item"><a href="http://vivassense.com/product-cat.html">документы</a></li>
+							<li class="main-footer_nav-item"><a href="http://vivassense.com/product-cat.html">связаться с нами</a></li>
+						</ul>
+					</nav>
+					<div class="main-footer_contacts">
+						<div class="footer-contacts_line-1">
+							<div class="footer-contacts_phone">+38 073 713 11 77</div>
+							<div class="footer-contacts_media-item icon_use">
+								<svg class="icon-media icon-insta"><use xlink:href="./img/svg/sprite.svg#viva_insta"></use></svg>
+							</div>
+							<div class="footer-contacts_media-item icon_use">
+								<svg class="icon-media icon-insta"><use xlink:href="./img/svg/sprite.svg#viva_fb"></use></svg>
+							</div>
+						</div>
+						<div class="footer-contacts_line-2">
+							<div class="footer-contacts_address">г. Киев, ул. Васильковская 37, эт. 3, оф. 309</div>
+						</div>
+						
+					</div>
+				</div>
+			</footer>
+		
+			
+			<!-- menu -->
+			<div class="menu_wrapper">
+				<div class="menu_shadow-overlay close-trigger"></div>
+				<div class="menu_outer ">
+					<div class="container">
+						<nav class="menu_inner">
+							<ul>
+								<li class="menu-item">
+									<svg class="icon-close-nav menu_close close-trigger"><use xlink:href="./img/svg/sprite.svg#viva_esc"></use></svg>
+								</li>
+								<li class="menu-item">
+									<a href="http://vivassense.com/product-cat.html" >продукция</a>
+								</li>
+								<li class="menu-item">
+									<a href="http://vivassense.com/product-cat.html" >где купить</a>
+								</li>
+								<li class="menu-item">
+									<a href="http://vivassense.com/product-cat.html" >диагностика</a>
+								</li>
+								<li class="menu-item">
+									<a href="http://vivassense.com/product-cat.html" >наши специалисты</a>
+								</li>
+								<li class="menu-item">
+									<a href="http://vivassense.com/product-cat.html" >о нас</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</div>
+			<div class="footer-contacts_line-3">
+				<svg class="icon-up"><use xlink:href="./img/svg/sprite.svg#viva_icon-up"></use></svg>
+			</div>
+		</div>
+
+		<!-- Load Scripts Start -->
+		<script>var scr = {"scripts":[{"src" : "js/libs.min.js", "async" : false}, {"src" : "js/product-cat.min.js", "async" : false}, ]};!function(t,n,r){"use strict";var c=function(t){if("[object Array]"!==Object.prototype.toString.call(t))return!1;for(var r=0;r<t.length;r++){var c=n.createElement("script"),e=t[r];c.src=e.src,c.async=e.async,n.body.appendChild(c)}return!0};t.addEventListener?t.addEventListener("load",function(){c(r.scripts);},!1):t.attachEvent?t.attachEvent("onload",function(){c(r.scripts)}):t.onload=function(){c(r.scripts)}}(window,document,scr);</script>
+		<!-- Load Scripts End -->
+	</body>
+</html>
