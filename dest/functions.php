@@ -523,4 +523,56 @@ if( function_exists('acf_add_options_page') ) {
 	
 }
 
+function woocommerce_rename_coupon_field_on_cart( $translated_text, $text, $text_domain ) {
+	// не меняет текст в админке
+	if ( is_admin() || 'woocommerce' !== $text_domain ) {
+		return $translated_text;
+	}
+	if ( 'Coupon:' === $text ) {
+		$translated_text = 'Промокод:';
+	}
+
+	if ('Coupon has been removed.' === $text){
+		$translated_text = 'Промокод был удален';
+	}
+
+	if ( 'Apply coupon' === $text ) {
+		$translated_text = 'Применить промокод';
+	}
+
+	if ( 'Coupon code' === $text ) {
+		$translated_text = 'Промокод';
+
+	}
+
+	return $translated_text;
+}
+
+
+// изменение на странице заказа
+function woocommerce_rename_coupon_message_on_checkout() {
+	return 'Есть промокод?' . ' <a href="#" class="showcoupon">' . __( 'Нажмите сюда чтобы добавить промокод', 'woocommerce' ) . '</a>';
+}
+
+
+function rename_coupon_label($err, $err_code=null, $something=null){
+
+	$err = str_ireplace("Coupon","Promo code ",$err);
+
+	return $err;
+}
+add_filter( 'gettext', 'woocommerce_rename_coupon_field_on_cart', 10, 3 );
+add_filter( 'gettext', 'woocommerce_rename_coupon_field_on_cart', 10, 3 );
+add_filter('woocommerce_coupon_error', 'rename_coupon_label', 10, 3);
+add_filter('woocommerce_coupon_message', 'rename_coupon_label', 10, 3);
+add_filter('woocommerce_cart_totals_coupon_label', 'rename_coupon_label',10, 1);
+add_filter( 'woocommerce_checkout_coupon_message', 'woocommerce_rename_coupon_message_on_checkout' );
+
+function translate_text($translated) {
+$translated = str_ireplace('Подытог', 'Цена', $translated);
+return $translated;
+}
+
+add_filter('gettext', 'translate_text');
+add_filter('ngettext', 'translate_text');
 ?>

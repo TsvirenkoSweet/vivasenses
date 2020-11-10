@@ -32,7 +32,7 @@ for ($i = 1; $i <= 5; $i++) {
 					<h2 class="section-heading"><?php echo $blok_2["title"]; ?></h2>
 					<div class="section-how_product-description"><?php echo $blok_2["subtitle"]; ?></div>
 				</div>
-				
+
 				<div class="section-how_advantages">
 					<div class="section-how_advantages-item">
 						<div class="section-how_advantages-icon_wrapper">

@@ -20,6 +20,14 @@
 </head>
 
 <body>
+	<!-- Гальп скомпилит проект по такому пути http://localhost:3000/home.html только если не меняли порт вручную-->
+	<!-- ------------- -->
+	<!-- Рабочая папка dev. Работаем внутри home.html, home.js, в scss набросал заготовки с разбивкой на компоненты,
+		тут выбирайте любой или создавайте свой по удобству-->
+	<!-- ------------- -->
+	<!-- пример использования свг иконки из спрайта
+		внутри href указываем путь, где после sprite.svg указывает id
+		который состоит из префикса viva (его в таске указали) и имени svg иконки ./img/svg/sprite.svg#viva_icon-up-->
 	<div id="fullpage">
 		<header class=" main_header slide fullpage_section" data-anchor="header">
 			<div class="main_header-nav-burger nav-mobile icon_use">
@@ -53,14 +61,14 @@
 								</svg>
 							</div>
 						</div>
-						<!-- <div class="main_header-nav-langs nav-toggle-list">
+						<div class="main_header-nav-langs nav-toggle-list">
 							<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 							<div class="nav-toggle-list_arr-down">
 								<svg class="icon-arr_down">
 									<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 								</svg>
 							</div>
-						</div> -->
+						</div>
 						<div class="main_header-nav-burger icon_use">
 							<svg class="icon-header icon_burger">
 								<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -80,6 +88,7 @@
 						<div class="main_header-subinfo">Швейцарская лаборатория</div>
 						<div class="btn-group">
 							<button class="btn btn-green">Получить консультацию</button>
+							<button class="btn btn-gray">Пройти диагностику</button>
 						</div>
 					</div>
 
@@ -108,63 +117,32 @@
 				<div class="section-how_advantages">
 					<div class="section-how_advantages-item">
 						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt1"></use></svg>
+							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_heart"></use></svg>
 						</div>
-						<div class="section-how_advantages-text">Каждый продукт в своей основе имеет 9 витаминов, 8 минеральных веществ и 15 аминокислот. То что необходимо человеку в сутки.</div>
+						<div class="section-how_advantages-text">Каждый продукт в своей основе
+							имеет 9 витаминов, 9 минеральных
+							веществ и 15 аминокислот.
+							То что необходимо человеку в сутки</div>
 					</div>
 					<div class="section-how_advantages-item">
 						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt2"></use></svg>
+							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_molecule"></use></svg>
 						</div>
-						<div class="section-how_advantages-text">Пастообразная консистенция, благодаря которой происходит моментальное усвоение полезных веществ до попадания в желудок.</div>
+						<div class="section-how_advantages-text">
+							Пастообразная консистенция,
+							благодаря которой происходит
+							моментальное всасывание
+							и усвоение продукта
+						</div>
 					</div>
 					<div class="section-how_advantages-item">
 						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt3"></use></svg>
+							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_quad"></use></svg>
 						</div>
-						<div class="section-how_advantages-text">Средства протестированы в лабораториях и имеют все необходимые сертификаты.</div>
-					</div>
-					<div class="section-how_advantages-item">
-						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt4"></use></svg>
+						<div class="section-how_advantages-text">
+							Природное восстановление
+							здоровья организма
 						</div>
-						<div class="section-how_advantages-text">На 100% покрывает потребность клетки в питательных веществах.</div>
-					</div>
-					<div class="section-how_advantages-item">
-						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt5"></use></svg>
-						</div>
-						<div class="section-how_advantages-text">Нейтрализация свободных радикалов. </br>Мощный антиоксидант. </br>Замедляет старение клеток.</div>
-					</div>
-					<div class="section-how_advantages-item">
-						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt6"></use></svg>
-						</div>
-						<div class="section-how_advantages-text">Останавливает воспалительные процессы.</div>
-					</div>
-					<div class="section-how_advantages-item">
-						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt7"></use></svg>
-						</div>
-						<div class="section-how_advantages-text">Улучшает показатели крови, приближая их к норме.</div>
-					</div>
-					<div class="section-how_advantages-item">
-						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt8"></use></svg>
-						</div>
-						<div class="section-how_advantages-text">Обеспечивает полноценное самовосстановление организма.</div>
-					</div>
-					<div class="section-how_advantages-item">
-						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt9"></use></svg>
-						</div>
-						<div class="section-how_advantages-text">Высокая биоусваемоимость витаминов и минералов за счет фульевой кислоты и хелатной формы (наличие аминокислот)</div>
-					</div>
-					<div class="section-how_advantages-item">
-						<div class="section-how_advantages-icon_wrapper">
-							<svg class="section-how_advantages-icon"><use xlink:href="./img/svg/sprite.svg#viva_bt10"></use></svg>
-						</div>
-						<div class="section-how_advantages-text">Высокие иммуностимулирующие и иммуномодулирующие свойства</div>
 					</div>
 				</div>
 			</div>
@@ -172,7 +150,7 @@
 		<!-- cardio protect -->
 		<section class="section slide fullpage_section  section-protect" data-anchor="protect">
 			<div class="section-protect_inner">
-				<div class="section-protect_item" id="bl3-img1" data-frame="5" data-query="1" data-id="bl3-img1"
+				<div class="section-protect_item" id="bl3-img1" data-frame="5" data-id="bl3-img1"
 				style="background-image: url('./img/images/bl3-adv1.jpg'); background-position: 58% 50%;"
 				>
 					<div class="item-gallery_intro hide-bl">
@@ -185,7 +163,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img2" data-frame="4" data-query="2" data-id="bl3-img2"
+				<div class="section-protect_item" id="bl3-img2" data-frame="4" data-id="bl3-img2"
 					 style="background-image: url('./img/images/bl3-adv2.jpg'); background-position: 50% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>2</span></div>
@@ -197,7 +175,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img3" data-frame="5" data-query="3" data-id="bl3-img3"
+				<div class="section-protect_item" id="bl3-img3" data-frame="5" data-id="bl3-img3"
 					 style="background-image: url('./img/images/bl3-adv3.jpg'); background-position: 43% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>3</span></div>
@@ -209,7 +187,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img4" data-frame="5" data-query="4" data-id="bl3-img4"
+				<div class="section-protect_item" id="bl3-img4" data-frame="5" data-id="bl3-img4"
 					 style="background-image: url('./img/images/bl3-adv4.jpg'); background-position: 32% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>4</span></div>
@@ -221,7 +199,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img5" data-frame="9" data-query="5" data-id="bl3-img5"
+				<div class="section-protect_item" id="bl3-img5" data-frame="9" data-id="bl3-img5"
 					 style="background-image: url('./img/images/bl3-adv5.jpg'); background-position: 70% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>5</span></div>
@@ -233,7 +211,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img6" data-frame="4" data-query="6" data-id="bl3-img6"
+				<div class="section-protect_item" id="bl3-img6" data-frame="4" data-id="bl3-img6"
 					 style="background-image: url('./img/images/bl3-adv6.jpg'); background-position: 54% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>6</span></div>
@@ -245,7 +223,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img7" data-frame="9" data-query="7" data-id="bl3-img7"
+				<div class="section-protect_item" id="bl3-img7" data-frame="9" data-id="bl3-img7"
 					 style="background-image: url('./img/images/bl3-adv7.jpg'); background-position: 15% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>7</span></div>
@@ -257,7 +235,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img8" data-frame="10" data-query="8" data-id="bl3-img8"
+				<div class="section-protect_item" id="bl3-img8" data-frame="10" data-id="bl3-img8"
 					 style="background-image: url('./img/images/bl3-adv8.jpg'); background-position: 42% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>8</span></div>
@@ -269,7 +247,7 @@
 					<div class="item-gallery_overlay"></div>
 					<div class="hover_overlay"></div>
 				</div>
-				<div class="section-protect_item" id="bl3-img9" data-frame="9" data-query="9" data-id="bl3-img9"
+				<div class="section-protect_item" id="bl3-img9" data-frame="9" data-id="bl3-img9"
 					 style="background-image: url('./img/images/bl3-adv9.jpg'); background-position: 42% 50%;">
 					<div class="item-gallery_intro hide-bl">
 						<div class="item-gallery_intro-num">№<span>9</span></div>
@@ -315,7 +293,7 @@
 			</div>
 		</section>
 		<!-- diagnostics -->
-		<!-- <section class="section  slide fullpage_section section-diagn" data-anchor="diagn">
+		<section class="section  slide fullpage_section section-diagn" data-anchor="diagn">
 			<div class="container section-diagn_inner">
 				<div class="section-diagn_intro">
 					<h2 class="section-heading">
@@ -331,7 +309,7 @@
 				</div>
 				
 			</div>
-		</section> -->
+		</section>
 		<!-- footer-nav -->
 		<section class="section slide fullpage_section  footer-gallery" data-anchor="gallery">
 			<div class="footer-gallery_tablecell">
@@ -391,12 +369,7 @@
 					</nav>
 					<div class="main-footer_contacts">
 						<div class="footer-contacts_line-1">
-							<div class="footer-contacts__container">
-								<div class="footer-contacts_phone">+38 073 713 11 77</div>
-								<div class="footer-contacts_phone">+38 067 713 11 77</div>
-								<div class="footer-contacts_mail"><a href="mailto:vivassense@gmail.com">vivassense@gmail.com</a></div>
-							</div>
-
+							<div class="footer-contacts_phone">+38 073 713 11 77</div>
 							<div class="footer-contacts_media-item icon_use">
 								<svg class="icon-media icon-insta"><use xlink:href="./img/svg/sprite.svg#viva_insta"></use></svg>
 							</div>
@@ -406,8 +379,8 @@
 						</div>
 						<div class="footer-contacts_line-2">
 							<div class="footer-contacts_address">г. Киев, ул. Васильковская 37, эт. 3, оф. 309</div>
-							<div class="footer-contacts_rules"> <a href="https://vivassense.com/ymovi-koristuvannya-saitom/">Умови користування сайтом</a></div>
 						</div>
+
 					</div>
 				</div>
 			</footer>
@@ -479,14 +452,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -513,45 +486,36 @@
 								питанию от компании Vivassense.
 								Продукт Food Supplement Биопаста Vivassense No1 IodoProtect содержит натуральные вещества, которые быстро всасываются в кишечнике и помогают нормализовать функционирование организма. </br>
 								БИОПАСТА IODOPROTECT ПОМОГАЕТ В РЕШЕНИИ ТАКИХ ПРОБЛЕМ:
-								нарушения памяти и концентрации внимания; лишний вес; усталость, апатия; постоянные стресс; нарушение эмоциональной сферы; кишвыпадение волос; ломкость ногтей; нарушение гормонального фона, в том числе и половых гормонах.
+								нарушения памяти и концентрации внимания; лишний вес; усталость, апатия; постоянные стресс; нарушение эмоциональной сферы; выпадение волос; ломкость ногтей; нарушение гормонального фона, в том числе и половых гормонах.
 							</div>
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -700,14 +664,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -739,40 +703,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -921,14 +876,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -960,40 +915,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -1142,14 +1088,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -1182,40 +1128,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -1358,14 +1295,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -1399,40 +1336,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -1575,14 +1503,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -1614,40 +1542,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -1790,14 +1709,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -1829,40 +1748,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -2008,14 +1918,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -2049,40 +1959,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -2225,14 +2126,14 @@
 									</svg>
 								</div>
 							</div>
-							<!-- <div class="main_header-nav-langs nav-toggle-list">
+							<div class="main_header-nav-langs nav-toggle-list">
 								<div class="nav-toggle-list_name"><span class="lang-full">English</span><span class="lang-short">Ua</span></div>
 								<div class="nav-toggle-list_arr-down">
 									<svg class="icon-arr_down">
 										<use xlink:href="./img/svg/sprite.svg#viva_arr_down-black"></use>
 									</svg>
 								</div>
-							</div> -->
+							</div>
 							<div class="main_header-nav-burger icon_use">
 								<svg class="icon-header icon_burger">
 									<use xlink:href="./img/svg/sprite.svg#viva_burger"></use>
@@ -2265,40 +2166,31 @@
 							<div class="popup-product_main-description_outer">
 								<sidebar class="popup-product_sidebar-nav">
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img1">
-										<img src="./img/colorSvg/viva_one.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_one.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_one.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img2">
-										<img src="./img/colorSvg/viva_two.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_two.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_two.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img3">
-										<img src="./img/colorSvg/viva_three.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_three.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_three.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img4">
-										<img src="./img/colorSvg/viva_four.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_four.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_four.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img5">
-										<img src="./img/colorSvg/viva_fifth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_fifth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_fifth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img6">
-										<img src="./img/colorSvg/viva_sixth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_sixth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_sixth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img7">
-										<img src="./img/colorSvg/viva_seventh.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_seventh.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_seventh.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img8">
-										<img src="./img/colorSvg/viva_eighth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_eighth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_eighth.svg" alt="" class="sidebar-img">
 									</div>
 									<div class="popup-product_sidebar-nav_item icon_use" data-id="bl3-img9">
-										<img src="./img/colorSvg/viva_nineth.svg" alt="" class="sidebar-img color">
-										<img src="./img/greySvg/viva_nineth.svg" alt="" class="sidebar-img notColor">
+										<img src="./img/viva_nineth.svg" alt="" class="sidebar-img">
 									</div>
 								</sidebar>
 								<div class="popup-product_main-description">
@@ -2415,6 +2307,18 @@
 			</div>
 		</div>
 	</div>
+
+
+
+	<!-- ------------- -->
+	<!-- ссылка на fullPage.js - https://alvarotrigo.com/fullPage/-->
+	<!-- ------------- -->
+	<!-- вот ссылка на инициализацию fullPage для jQuery https://github.com/alvarotrigo/fullPage.js#initialization-with-jquery-->
+	<!-- ------------- -->
+	<!-- вот ссылка на пример с обработчиком ивентов https://alvarotrigo.com/fullPage/examples/callbacks.html-->
+	<!-- ------------- -->
+	<!-- библиотеку для слайдера выбирайте которая вам нравится, тут не принципиально, используйте то, с чем проще-->
+	<!-- ------------- -->
 
 	<!-- Load Scripts Start -->
 	<script>
